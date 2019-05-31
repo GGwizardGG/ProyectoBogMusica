@@ -1,0 +1,101 @@
+.blog-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-inverse {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(254,254,254,1) 4%, rgba(246,246,246,1) 25%, rgba(209,175,222,1) 74%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(1%, rgba(255,255,255,1)), color-stop(4%, rgba(254,254,254,1)), color-stop(25%, rgba(246,246,246,1)), color-stop(74%, rgba(209,175,222,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(254,254,254,1) 4%, rgba(246,246,246,1) 25%, rgba(209,175,222,1) 74%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(254,254,254,1) 4%, rgba(246,246,246,1) 25%, rgba(209,175,222,1) 74%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(254,254,254,1) 4%, rgba(246,246,246,1) 25%, rgba(209,175,222,1) 74%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(254,254,254,1) 4%, rgba(246,246,246,1) 25%, rgba(209,175,222,1) 74%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1afde', GradientType=1 );
+  height: 150px;
+  min-height: 20%;
+  border: none;
+}
+.clase-nav{
+  height: 150px;
+  text-align: right;
+}
+.logo-img {
+  width: 150px;
+  height: 100%;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.musica {
+    background:#3B34F3;
+  }
+
+
+
+.menu{
+
+  background-color: #CDD0E9;
+
+}
+.btn .mw{
+  min-width: 20px;
+  width: 20%;
+  background-color: white;
+
+
+}
+.btn-group{
+  padding-left: 10px;
+}
+.redes-sociales {
+  margin-top: 100px;
+  text-align: right;
+}
+.img-social {
+  width: 40px;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.img-cuerpo{
+  width: 200px;
+}
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
+  .lateral{
+    width: 100%;
+  }
+  .busquedas>a{
+    margin-bottom: 5px;
+  }
+  .busquedas{
+    padding-top: 20px;
+  }
+
+@media (max-width: 600px) {
+  .btn{
+    min-width: 20px;
+    width: 100%;
+  }
+
+}
